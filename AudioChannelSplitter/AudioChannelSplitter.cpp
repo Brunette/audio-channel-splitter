@@ -4,7 +4,8 @@
 #include <cstdint>
 #include <string>
 #include "wav_header.h"
- 
+#include "FileUtility.h" 
+
 using std::cin;
 using std::cout;
 using std::endl;
@@ -18,16 +19,7 @@ int main(int argc, char* argv[])
 
     const char* filePath;
     string input;
-    if (argc <= 1)
-    {
-        cout << "Enter file name: ";
-        cin >> input;
-        cin.get();
-        filePath = input.c_str();
-    }
-    else
-    {
-        filePath = argv[1];
-        cout << "File name from args: " << filePath << endl;
-    }
+    handleFileInput(&filePath, argc, argv);
+    
+
 }

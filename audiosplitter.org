@@ -1,5 +1,6 @@
 * TODOs
-** Get input from args
+** DONE Get input from args
+   CLOSED: [2022-10-04 Tue 18:30]
 ** Open audio files
 ** Read Header info (if exists)
 ** Split Data based off of channels

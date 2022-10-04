@@ -23,5 +23,8 @@
     <ClInclude Include="wav_header.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="FileUtility.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
