@@ -32,3 +32,6 @@ int openAudioFile(FILE** audioFile, const char* filePath) {
     return 1;
 };
 
+std::string getFileExt(std::string fname) {
+    return fname.substr(fname.find_last_of(".") + 1);
+}
