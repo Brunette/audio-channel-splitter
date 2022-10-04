@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #include <cstdint>
 typedef struct  WAV_HEADER
 {

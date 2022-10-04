@@ -18,16 +18,25 @@
     <ClCompile Include="AudioChannelSplitter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AudioHeaderReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="wav_header.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="AudioHeaderReader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FileUtility.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pseudo_header.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wav_header.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

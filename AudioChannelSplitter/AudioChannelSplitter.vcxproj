@@ -139,9 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AudioHeaderReader.cpp" />
     <ClCompile Include="AudioChannelSplitter.cpp" />
+    <ClCompile Include="FileUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AudioHeaderReader.h" />
     <ClInclude Include="FileUtility.h" />
     <ClInclude Include="pseudo_header.h" />
     <ClInclude Include="wav_header.h" />
