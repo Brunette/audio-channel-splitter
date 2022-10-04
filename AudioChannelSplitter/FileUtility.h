@@ -35,3 +35,11 @@ int openAudioFile(FILE** audioFile, const char* filePath) {
 std::string getFileExt(std::string fname) {
     return fname.substr(fname.find_last_of(".") + 1);
 }
+
+long getFileSize(std::string filename)
+{
+    struct stat stat_buf;
+    int rc = stat(filename.c_str(), &stat_buf);
+    return rc == 0 ? stat_buf.st_size : -1;
+}
+

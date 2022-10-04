@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileUtility.h" />
+    <ClInclude Include="pseudo_header.h" />
     <ClInclude Include="wav_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
