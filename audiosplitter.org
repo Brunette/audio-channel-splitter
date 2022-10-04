@@ -1,0 +1,7 @@
+* TODOs
+** Get input from args
+** Open audio files
+** Read Header info (if exists)
+** Split Data based off of channels
+** Write data to new files
+*** write updatede header info
