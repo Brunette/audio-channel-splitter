@@ -163,6 +163,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="UnitTests_AudioChannelSplitter.cpp" />
+    <ClCompile Include="UnitTests_AudioHeaderReader.cpp" />
+    <ClCompile Include="UnitTests_FileUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
