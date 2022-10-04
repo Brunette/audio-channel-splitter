@@ -20,12 +20,13 @@ void handleFileInput(const char** filePath, int argc, char* argv[]) {
     return;
 }
 
-string openAudioFile(string filePath) {
-    FILE* audioFile;
+int openAudioFile(FILE** audioFile, const char* filePath) {
     errno_t err;
-    if ((err = fopen_s(&audioFile, filePath, "r")) != 0)
+    if ((err = fopen_s(audioFile, filePath, "r")) != 0)
     {
         fprintf(stderr, "Unable to open wave file: %s\n", filePath);
-        return 1;
+        return 0;
     }
+    return 1;
 };
+

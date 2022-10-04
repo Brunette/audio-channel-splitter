@@ -20,6 +20,11 @@ int main(int argc, char* argv[])
     const char* filePath;
     string input;
     handleFileInput(&filePath, argc, argv);
-    
+
+    FILE* audioFile;
+    if (!openAudioFile(&audioFile, filePath)) {
+        return;
+    }
+
 
 }
