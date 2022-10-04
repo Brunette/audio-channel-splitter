@@ -5,13 +5,13 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 using std::string;
 
-namespace UnitTestsAudioChannelSplitter
+namespace UnitTestsAudioHeaderReader
 {
-	TEST_CLASS(UnitTestsAudioChannelSplitter)
+	TEST_CLASS(UnitTestsAudioHeaderReader)
 	{
 	public:
-		
-		TEST_METHOD(TestsAudioChannelSplitter)
+
+		TEST_METHOD(TestAudioHeaderReader)
 		{
 			//
 		}
