@@ -10,9 +10,11 @@ namespace UnitTestsAudioHeaderReader
 	{
 	public:
 
-		TEST_METHOD(TestAudioHeaderReader)
+		TEST_METHOD(TestAudioHeaderReader_readWav)
 		{
-			//
+			/* TODO: all methods in this class use fread() and there fore not 
+			* appropriate to unit test in their current form. 
+			*/
 		}
 
 	};
