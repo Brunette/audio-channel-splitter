@@ -165,6 +165,7 @@
     <ClCompile Include="UnitTests_AudioChannelSplitter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileUtility.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 
     FILE* audioFile;
     if (!openAudioFile(&audioFile, filePath)) {
-        return;
+        return 0;
     }
 
 

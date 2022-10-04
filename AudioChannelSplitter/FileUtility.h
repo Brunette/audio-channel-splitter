@@ -1,21 +1,23 @@
 #pragma once
 #include <string>
-using std::string;
+#include <iostream>
+#include <string>
+#include <fstream>
 
 void handleFileInput(const char** filePath, int argc, char* argv[]) {
-    string input;
+    std::string input;
     if (argc <= 1)
     {
         // if arg was not given, prompt;
-        cout << "Enter file name: ";
-        cin >> input;
-        cin.get();
+        std::cout << "Enter file name: ";
+        std::cin >> input;
+        std::cin.get();
         *filePath = input.c_str();
     }
     else
     {
         *filePath = argv[1];
-        cout << "File name from args: " << *filePath << endl;
+        std::cout << "File name from args: " << *filePath << std::endl;
     }
     return;
 }
